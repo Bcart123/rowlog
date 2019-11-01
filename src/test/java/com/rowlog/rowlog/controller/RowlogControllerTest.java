@@ -11,6 +11,6 @@ class RowlogControllerTest {
     @Test
     void getWorkout() {
         Workout workout = rowlogController.getWorkout(5);
-        assertNotNull(workout, "Expected Workout to not be null");
+        assertNotNull(workout, "Expected workout to not be null");
     }
 }
